@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_glide">
+
+    <fragment
+        android:id="@+id/nav_glide"
+        android:name="com.solutbit.updwandroidlibrary.ui.glide.GlideFragment"
+        android:label="@string/menu_Glide"
+        tools:layout="@layout/fragment_Glide" />
+
+    <fragment
+        android:id="@+id/nav_fresco"
+        android:name="com.solutbit.updwandroidlibrary.ui.fresco.FrescoFragment"
+        android:label="@string/menu_Fresco"
+        tools:layout="@layout/fragment_Fresco" />
+
+    <fragment
+        android:id="@+id/nav_mp_android_chart"
+        android:name="com.solutbit.updwandroidlibrary.ui.mp_android_chart.MPAndroidChartFragment"
+        android:label="@string/menu_MPAndroidChart"
+        tools:layout="@layout/fragment_MPAndroidChart" />
+
+    <fragment
+        android:id="@+id/nav_dexter"
+        android:name="com.solutbit.updwandroidlibrary.ui.dexter.DexterFragment"
+        android:label="@string/menu_Dexter"
+        tools:layout="@layout/fragment_Dexter" />
+</navigation>

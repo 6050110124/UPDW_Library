@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_glide"
+            android:icon="@drawable/ic_menu_photo"
+            android:title="@string/menu_Glide" />
+        <item
+            android:id="@+id/nav_fresco"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_Fresco" />
+        <item
+            android:id="@+id/nav_mp_android_chart"
+            android:icon="@drawable/ic_menu_pie_chart"
+            android:title="@string/menu_MPAndroidChart" />
+        <item
+            android:id="@+id/nav_dexter"
+            android:icon="@drawable/ic_menu_pan_tool"
+            android:title="@string/menu_Dexter" />
+    </group>
+
+</menu>
